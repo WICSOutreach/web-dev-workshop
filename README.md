@@ -11,7 +11,7 @@ Learn the basics of building a basic end to end web application using HTML/CSS, 
 * Install the following libraries in Python by using pip in the command line of the project's directory. If you do not have pip installed, please see the following link for more help (https://pip.pypa.io/en/stable/installing/):
   * Navigate to the webjam-web-dev-workshop directory you just cloned, and run pip install -r requirements.txt to install all dependencies.
   * OR you can manually install each one"
-    * Flask: pip install flask
+    * Flask: ```pip install flask```
 
 # Additional Resources
 
