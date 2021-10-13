@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Expense Tracker</title>
+
+	<!-- Link stylesheets here! -->
+	<!-- The order of the link tags is the order in which styles are applied -->
+	<!-- If you want to override Bootstrap styling, link your own stylesheet AFTER bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+	<link href="../static/style.css" rel="stylesheet" type="text/css" />
+
+  	<!-- Import Google Fonts (https://fonts.google.com/) -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+	  
+</head>
+
+<body>
+	<div class="container-fluid page">
+		<h1>My History</h1>
+		<!-- This is the table created in the view page -->
+		
+		<!-- TODO 1: Create filter dropdown -->
+		<form>
+			
+		</form>
+
+		<table class="table">
+			<th>Item</th>
+			<th>Amount</th>
+			<th>Category</th>
+			<!-- The <tbody> tag is what is connected to the Javascript function, so when HTML is added, it goes in here -->
+			<tbody id="result_table">
+				<!-- Generate a row for each item -->
+				<!-- TODO: Use Jinja2 to render data as rows in the table-->
+
+
+			</tbody>
+		</table>
+
+		<a href="/" class="btn btn-danger">Back</a>
+	</div>
+
+
+	<!-- Place all script tags at the bottom of the body for best loading performance -->
+	<!-- Link Ajax library (used to connect to the backend) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
